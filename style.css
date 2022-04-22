@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(images/bg-header-desktop.png) no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+header{
+    width:45%;
+}
+.logo{
+    text-align: center;
+    font-size: 75%;
+}
+h1, p{
+    margin-top: 20px;
+    opacity: 0.7;
+    text-align: center;
+}
+ p{
+    opacity: 0.5;
+    font-size: 12px;
+} 
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 2px 0 0 0 hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.options{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img{
+    width: 25%;
+}
+.imag{
+    width: 200%;
+    height: 100%;
+}
+.text{
+    font-size: 9px;
+    width: 50%;
+}
+.imag2{
+    width: 100%;
+}
+
+h2 {
+    font-size: 14px;
+    opacity: .7;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.space p{
+    font-size: 8px;
+}
+.space img{
+    width:30px;
+}
+.center-auto{
+    text-align: center;
+}
+
+.companys{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+.companys img{
+    width: 70%;
+}
+
+footer{
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .box1{
+    width: 50px;
+}
+footer .box1 img{
+    height: 50px;
+}
+footer h1{
+    font-size: 12px;
+    margin-right: 20px;
+}
+footer .box2{
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+footer .box3{
+    width: 100px;
+}
+footer .box3 img{
+    margin-left: 5px;
+    width: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+    body{
+        background-image: url(images/bg-header-mobile.png);
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    main{
+        flex-direction: column;
+        height: 100px;
+    }
+    main .btn{
+        margin-top: 10px;
+
+    }
+    
+    section .options{
+        flex-direction: column;
+        align-items: center;
+    }
+    .options img{
+        transform: translateX(-30px);
+        margin: 35px auto;
+    }
+    .logo .imag2{
+        margin-top: 55px;
+    }
+     .space{
+        flex-direction: column;
+        height: 450px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .companys{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .companys div{
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    }
+    footer .box2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 200px;
+    }
+
+}
