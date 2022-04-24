@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/bg-header-desktop.png) no-repeat;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.copy{
+    width: 50%;
+}
+
+
+h1, h2 {
+    font-size: 26px;
+    opacity: .7;
+}
+p{
+    font-size: 14px;
+    opacity: .5;
+}
+
+.buttons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+border-radius: 20px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    
+}
+.options img {
+    width: 100%;
+    margin: 20px auto;
+}
+.options .img{
+    width: 320px;
+}
+.options .text{
+    width: 170px;
+}
+.options h2{
+    font-size: 14px;
+}
+.options p{
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.devices img{
+    width: 100%;
+    margin: 40px auto;
+}
+
+.workflow{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.workflow h3{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.workflow  .p{
+    font-size: 10px;
+}
+
+.companys{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companys img{
+    width: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+}
+footer img{
+    width: 50px;
+}
+footer .box2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    width: 35%;
+    cursor: pointer;
+}
+footer .box2 p{
+    margin-left: 10px;
+}
+footer .box3 img{
+    width: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
